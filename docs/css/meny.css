@@ -1,0 +1,54 @@
+:root {
+    --blue1: #63B6E5;
+    --white1: #FFFFFF;
+    --black1: #0E0E0E;
+    --blue2: #00639B;
+    --white2: #F4F4F4; 
+    --blue3: #C7E5F5;
+    --blue4: #93CEEF;
+    --grey1: #AEAEAE;
+    --grey2: #D7D7D7;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow: hidden;
+    background-color: var(--blue2);
+}
+
+h1, h2, h3, h4, p, button {
+    font-family: 'Reem Kufi', sans-serif;
+    font-weight: 400;
+    color: var(--white1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.3rem;
+    color: var(--white1);
+}
+
+.menu {
+    padding: 0px;
+    margin: 0px;
+    height: 1.75rem;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    margin-left: 0.8rem;
+}
