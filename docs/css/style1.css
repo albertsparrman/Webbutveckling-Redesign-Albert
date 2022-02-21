@@ -30,12 +30,26 @@ h1, h2, h3, h4, p, button {
     background-size: 1200px;
     height: 760px;
 }
+@media (max-width:768px) {
+    body{
+        overflow: hidden;
+    }
+}
+
 @media (min-width:768px) {
     .background {
         background-image: url(/docs/img/jackson-hendry-eodA_8CTOFo-unsplash.jpg);
         background-position: center;
         background-size: 1300px;
         height: 760px;
+    }
+}
+
+@media (min-width:1400px) {
+    body {
+        max-width: 1800px;
+        margin: auto;
+        background-color: #0E0E0E;
     }
 }
 
@@ -47,7 +61,7 @@ header {
 
 @media (min-width:768px) {
     header{
-        padding: 1.4rem;
+        padding: 1rem;
     }
 }
 
@@ -56,6 +70,12 @@ h1 {
     margin: 0px;
     font-size: 1.3rem;
     color: var(--white1);
+}
+
+@media (min-width:768px) {
+    h1{
+        font-size: 1.5rem;
+    }
 }
 
 .menu {
@@ -127,15 +147,14 @@ h1 {
 h2 {
     color: rgba(255, 255, 255, 1);
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin: 0;
     padding: 0;
-    margin-right: 0.8rem;
+    margin-right: 1rem;
 }
 
 h3 {
     color: rgba(255, 255, 255, 1);
-    font-weight: 400;
     font-size: 1.8rem;   
 }
 
@@ -146,7 +165,6 @@ h3 {
 @media (min-width:768px) {
     h3 {
         color: rgba(255, 255, 255, 1);
-        font-weight: 400;
         font-size: 4rem;
         margin: 0;
         padding: 0;
@@ -163,12 +181,7 @@ h3 {
     color: rgba(255, 255, 255, 0.4);
 }
 
-h4 {
-    color: rgba(255, 255, 255, 0.9);
-    font-weight: 400;
-    font-size: 36px;
-    margin-left: 40px;
-}
+
 
 @media (min-width:768px) {
     .p1{
@@ -196,6 +209,25 @@ h2:hover {
         justify-content: left;
         display: block;
         margin-left: 3rem;
-        margin-top: 6rem;
+        margin-top: 8rem;
+        margin-bottom: 16rem;
+    }
+}
+
+h4 {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-left: 40px;
+}
+
+.aktuellt{
+    background-color: #0E0E0E;
+}
+
+
+@media (max-width:768px) {
+    .aktuellt {
+        display: none;
     }
 }

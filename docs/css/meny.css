@@ -8,6 +8,7 @@
     --blue4: #93CEEF;
     --grey1: #AEAEAE;
     --grey2: #D7D7D7;
+    --black2: #1b1b1b;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
     scroll-behavior: smooth;
     max-width: 100%;
     overflow: hidden;
-    background-color: var(--blue2);
+    background-color: var(--black2);
 }
 
 h1, h2, h3, h4, p, button {
@@ -51,4 +52,14 @@ a {
 
 h2 {
     margin-left: 0.8rem;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 1.5rem;
+    margin: 0px;
+}
+
+.container {
+    background-color: var(--black2);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(43, 43, 43);
 }
