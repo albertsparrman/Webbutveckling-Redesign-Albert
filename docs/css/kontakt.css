@@ -50,3 +50,27 @@ a {
     text-decoration: none;
 }
 
+.button2 {
+    color: var(--blue1);
+    border-style: solid;
+    border-color: var(--blue1);
+    background-color: var(--white1);
+    border-radius: 2000px;
+    font-size: 0.8rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+.pcmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width:768px) {
+    .pcmenu {
+        display: none;
+    }
+}
