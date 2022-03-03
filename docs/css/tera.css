@@ -76,7 +76,12 @@ h1 {
     padding: 0px;
     margin: 0px;
     height: 1.75rem;
-    
+}
+
+@media (min-width:768px) {
+    .menu {
+        display: none;
+    }
 }
 
 a {
@@ -108,20 +113,37 @@ a {
     }
 }
 
+h2 {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 0rem;
+    padding: 0rem;
+    margin-right: 1rem;
+}
+
 .ruta {
     display: flex;
-    justify-content: space-between;
+
 }
 
 .terabild {
-    height: 4.9rem;
-    width: 4.9rem;
+    height: 5rem;
+    width: 5rem;
     background-size: 6rem;
     background-position: center;
     border-radius: 20rem;
     filter: grayscale();
 }
 
+h4 {
+    font-size: 1.1rem;
+    margin: 0rem;
+    padding: 0rem; 
+}
+
 p {
-   font-size: 0.1rem; 
+   font-size: 0.85rem;
+   margin: 0rem;
+   padding: 0rem; 
 }

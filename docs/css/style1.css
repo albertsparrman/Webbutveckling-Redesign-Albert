@@ -30,11 +30,6 @@ h1, h2, h3, h4, p, button {
     background-size: 1200px;
     height: 760px;
 }
-@media (max-width:768px) {
-    body{
-        overflow: hidden;
-    }
-}
 
 @media (min-width:768px) {
     .background {
@@ -190,10 +185,6 @@ h3 {
     }
 }
 
-.marginh4 {
-    margin-top: -38px;
-}
-
 a {
     text-decoration: none;
 }
@@ -208,9 +199,9 @@ h2:hover {
     .boka {
         justify-content: left;
         display: block;
-        margin-left: 3rem;
+        margin-left: 3.5rem;
         margin-top: 8rem;
-        margin-bottom: 16rem;
+        margin-bottom: 12.5rem;
     }
 }
 
@@ -218,7 +209,7 @@ h4 {
     color: rgba(255, 255, 255, 0.9);
     font-weight: 400;
     font-size: 1.6rem;
-    margin-left: 40px;
+    margin-bottom: 0rem;
 }
 
 .aktuellt{
@@ -232,3 +223,15 @@ h4 {
     }
 }
 
+.p2 {
+    color: var(--grey2);
+    font-size: 1.1rem;
+    word-spacing: 3px;
+    margin-top: 0.6rem;
+}
+
+.info {
+    padding: 3.5rem;
+    padding-bottom: 2rem;
+    padding-top: 0.1rem;
+}
