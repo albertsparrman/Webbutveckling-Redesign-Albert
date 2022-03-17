@@ -8,6 +8,7 @@
     --blue4: #93CEEF;
     --grey1: #AEAEAE;
     --grey2: #D7D7D7;
+    --grey3: #676767;
     --black2: #1b1b1b;
 }
 
@@ -16,8 +17,8 @@ body {
     padding: 0px;
     scroll-behavior: smooth;
     max-width: 100%;
-    overflow: hidden;
-    background-color: var(--black2);
+    overflow-x: hidden;
+    background-color: var(--white1);
 }
 
 .background {
@@ -31,7 +32,7 @@ body {
 h1, h2, h3, h4, p, button {
     font-family: 'Reem Kufi', sans-serif;
     font-weight: 400;
-    color: var(--white1);
+    color: var(--black1);
 }
 
 header {
@@ -122,9 +123,20 @@ h2 {
     margin-right: 1rem;
 }
 
+h3{
+    font-size: 1.2rem;
+    background-color: var(--black1);
+    margin: 0px;
+    margin-bottom: 1rem;
+    padding: 0.4rem;
+    padding-left: 0.8rem;
+    color: var(--white1);
+}
+
 .ruta {
     display: flex;
-
+    align-items: center;
+    width: 55rem;
 }
 
 .terabild {
@@ -139,11 +151,22 @@ h2 {
 h4 {
     font-size: 1.1rem;
     margin: 0rem;
-    padding: 0rem; 
+    padding: 0rem;
+    color: var(--grey3); 
 }
 
 p {
    font-size: 0.85rem;
    margin: 0rem;
    padding: 0rem; 
+   color: var(--grey3);
+}
+
+.mrgleft{
+    margin-left: 1rem;
+}
+
+.mer{
+    margin-top: -0.8rem;
+    margin-left: 45rem;
 }
