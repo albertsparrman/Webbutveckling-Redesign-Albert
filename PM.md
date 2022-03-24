@@ -16,11 +16,13 @@ Designarbetet utfördes med det digitala verktyg figma och utfördes efter mobil
 ### Kodning
 Som vanligt började jag med den grundläggande strukturen för min html och designade sedan med css. När jag kodade jobbade jag också efter mobile-first principen och gjorde alltså alltid mobilversionerna först. 
 
+HTML koden har blivit validerad och har inga problem. 
+
 ## Positiva erfarenheter
-Det gick i allmänhet hyfsat bra, jag fick till det jag hann med ungefär som jag ville och fick lära mig några nya grejer. 
+Det gick väl i allmänhet ganska bra. Momenten som jag hann göra klart blev som jag hade tänkt mig.  
 
 ## Negativa erfarenheter
-
+Att tänka på nästa gång för mig personligen är framförallt att försöka prova på fler utmanande saker. Hemsridan var även lite väl långsam på att ladda in ibland så det finns utvecklingspotentiall i optimisationen.
 
 ## Sammanfattning
-
+Jag hade inte riktigt hunnit göra en skiss som jag var helt nöjd och jobbade därför med designen genom hela projektet. Det gick i allmänhet rätt smidigt att skriva koden och få den att funka när jag väl visste hur jag ville att sidan skulle se ut. 

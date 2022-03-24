@@ -19,7 +19,7 @@ body {
     background-color: var(--white2);
 }
 
-h1, h2, h3, h4, p, button {
+h1, h2, h3, h4, p, a {
     font-family: 'Reem Kufi', sans-serif;
     font-weight: 400;
     color: var(--white1);
@@ -52,7 +52,7 @@ a {
 }
 
 .background {
-    background-image: url(/docs/img/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg);
+    background-image: url(/docs/assets/img/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg);
     background-size: 450px;
     height: 300px;
     background-position-x: center;

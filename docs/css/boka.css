@@ -21,14 +21,14 @@ body {
 }
 
 .background {
-    background-image: url(/docs/img/alex_rainer-0-UDsQcKlCg-unsplash.jpg);
+    background-image: url(/docs/assets/img/alex_rainer-0-UDsQcKlCg-unsplash.jpg);
     background-size: 500px;
     height: 230px;
     background-position-x: left;
     background-position-y: center;
 }
 
-h1, h2, h3, h4, p, button, li {
+h1, h2, h3, h4, p, a, li {
     font-family: 'Reem Kufi', sans-serif;
     font-weight: 400;
     color: var(--white1);
