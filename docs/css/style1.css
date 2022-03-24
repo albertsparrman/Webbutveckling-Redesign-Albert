@@ -25,7 +25,7 @@ h1, h2, h3, h4, p, a {
 }
 
 .background {
-    background-image: url('../docs/assets/img/jackson-hendry-eodA_8CTOFo-unsplash.jpg');
+    background-image: url('/docs/assets/img/jackson-hendry-eodA_8CTOFo-unsplash.jpg');
     background-position: center;
     background-size: 1200px;
     height: 760px;
@@ -33,7 +33,7 @@ h1, h2, h3, h4, p, a {
 
 @media (min-width:768px) {
     .background {
-        background-image: url('../docs/assets/img/jackson-hendry-eodA_8CTOFo-unsplash.jpg');
+        background-image: url('/docs/assets/img/jackson-hendry-eodA_8CTOFo-unsplash.jpg');
         background-position: center;
         background-size: 1300px;
         height: 760px;
