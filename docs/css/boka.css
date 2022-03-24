@@ -21,7 +21,7 @@ body {
 }
 
 .background {
-    background-image: url(/docs/assets/img/alex_rainer-0-UDsQcKlCg-unsplash.jpg);
+    background-image: url('../docs/assets/img/alex_rainer-0-UDsQcKlCg-unsplash.jpg');
     background-size: 500px;
     height: 230px;
     background-position-x: left;
